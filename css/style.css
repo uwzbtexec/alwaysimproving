@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Helvetica Neue', 'sans-serif';
+    font-weight: 300;
+    font-size: 12pt;
+    font-variant: small-caps;
+    color: white;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7vw;
+}
+
+#app {
+    margin: 0 auto;
+}
+
+#section1 {
+    width: 100%;
+    margin: 0 auto;
+    text-shadow: 0 0 7px rgba(255,255,255,0.45);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../res/frontpage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#sect1txt {
+    text-align: center;
+    width: 65%;
+    margin: 12vw auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5em;
+    font-weight: 100;
+    font-variant-caps: small-caps;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+    display: inline-block;
+    width: 65%;
+    line-height: 2em;
+}
+
+#calltoaction {
+    font-size: 1.2em;
+    color: #fff;
+    border: 0.5px #fff solid;
+    border-radius: 0.5em;
+    width: 30%;
+    margin: 1em auto;
+    padding: 0.65em 0;
+    transition: all 200ms;
+}
+
+#calltoaction:hover {
+    border: 0.5px #ddd solid;
+    color: #ddd;
+    cursor: pointer;
+}
+
+#section2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../res/intel.png');
+    background-size: cover;
+    height: 50vh;
+}
+
+#nav {
+    margin: 5em auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.navbut {
+    font-size: 1.3em;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    line-height: 70%;
+}
+
+.navbut a {
+    transition: all 200ms;
+}
+
+.navbut a:hover {
+    color: #bbb;
+}
+
+@media screen and (max-width: 768px) {
+    #calltoaction {
+        font-size: 2.5vw;
+    }
+    a {
+        font-size: 2.5vw;
+    }
+}
