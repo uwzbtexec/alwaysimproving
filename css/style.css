@@ -26,6 +26,7 @@ body {
 
 #crest {
     margin: 5em auto;
+    margin-bottom: 3em;
     width: 30vh;
     height: 30vh;
     background-image: url('../res/zbtcrest_white.png');
@@ -64,6 +65,7 @@ h4 {
     border-radius: 0.5em;
     width: 30%;
     margin: 5em auto;
+    margin-bottom: 10em;
     padding: 0.65em 0;
     transition: all 200ms;
 }
