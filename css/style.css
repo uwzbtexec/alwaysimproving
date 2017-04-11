@@ -79,6 +79,9 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
     #calltoaction {
         font-size: 3.5vw;
         width: 60%;
