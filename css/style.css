@@ -18,7 +18,7 @@ body {
     width: 100%;
     margin: 0 auto;
     text-shadow: 0 0 7px rgba(255,255,255,0.45);
-    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../res/frontpage.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85) ), url('../res/frontpage.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -26,7 +26,7 @@ body {
 
 #crest {
     margin: 5em auto;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     width: 30vh;
     height: 30vh;
     background-image: url('../res/zbtcrest_white.png');
