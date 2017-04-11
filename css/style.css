@@ -10,12 +10,6 @@ body {
     background-color: #222;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.7vw;
-}
-
 #app {
     margin: 0 auto;
 }
@@ -24,23 +18,34 @@ a {
     width: 100%;
     margin: 0 auto;
     text-shadow: 0 0 7px rgba(255,255,255,0.45);
-    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../res/frontpage.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../res/frontpage.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
+#crest {
+    margin: 5em auto;
+    width: 30vh;
+    height: 30vh;
+    background-image: url('../res/zbtcrest_white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
 #sect1txt {
     text-align: center;
     width: 65%;
-    margin: 12vw auto;
+    margin: 0.5vw auto;
 }
 
 h1 {
-    margin: 0;
+    margin: 0.2em 0;
     font-size: 5em;
     font-weight: 100;
     font-variant-caps: small-caps;
+    line-height: 1em;
 }
 
 h4 {
@@ -64,45 +69,14 @@ h4 {
 }
 
 #calltoaction:hover {
-    border: 0.5px #ddd solid;
-    color: #ddd;
+    border: 0.5px #aaa solid;
+    color: #aaa;
     cursor: pointer;
-}
-
-#section2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../res/intel.png');
-    background-size: cover;
-    height: 50vh;
-}
-
-#nav {
-    margin: 5em auto;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.navbut {
-    font-size: 1.3em;
-    width: 25%;
-    text-align: center;
-    cursor: pointer;
-    line-height: 70%;
-}
-
-.navbut a {
-    transition: all 200ms;
-}
-
-.navbut a:hover {
-    color: #bbb;
 }
 
 @media screen and (max-width: 768px) {
     #calltoaction {
-        font-size: 2.5vw;
-    }
-    a {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+        width: 60%;
     }
 }
